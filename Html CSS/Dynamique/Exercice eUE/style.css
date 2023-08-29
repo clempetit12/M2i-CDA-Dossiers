@@ -1,0 +1,145 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    width: 100vw;;
+}
+.bloc_bleu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 800px;
+    background-color: blue;
+
+}
+.bloc_blanc1{
+    
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    
+    top :10%;
+    left: 0%;
+}
+.bloc_blanc2{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: relative;
+    top :10%;
+    left: calc(50%-25px)
+    
+}
+.bloc_blanc3{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: relative;
+    top :10%;
+    left: 14%;
+    
+}
+.bloc_blanc4{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: relative;
+    top :20%;
+    left: 5%;
+    
+}
+.bloc_blanc5{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: relative;
+    top :20%;
+    left: 5%;
+    
+}
+.bloc_blanc6{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: relative;
+    top :20%;
+    left: 5%;
+    
+}
+.bloc_blanc7{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: relative;
+    top :20%;
+    left: 5%;
+    
+}
+.bloc_blanc8{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: relative;
+    top :20%;
+    left: 5%;
+    
+}
+.bloc_blanc9{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: relative;
+    top :20%;
+    left: 5%;
+    
+}
+.bloc_blanc10{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: relative;
+    top :20%;
+    left: 5%;
+    
+}
+.bloc_blanc11{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: relative;
+    top :20%;
+    left: 5%;
+    
+}
+.bloc_blanc12{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: relative;
+    top :20%;
+    left: 5%;
+    
+}
+img{
+    transform: scale(0.5);
+    
+}

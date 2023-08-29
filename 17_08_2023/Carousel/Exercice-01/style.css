@@ -1,0 +1,96 @@
+.col-size1 {
+    width: 550px;
+    height: 200px;
+    background-color:#8b008b;
+    padding: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  .col-size2 {
+    width: 550px;
+    height: 200px;
+    background-color: #9900ff;
+    padding: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  .col-size3 {
+    width: 550px;
+    height: 200px;
+    background-color: #0000ff;
+    padding: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  .col-size4 {
+    width: 550px;
+    height: 200px;
+    background-color:#339933;
+    padding: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  .col-size5 {
+    width: 550px;
+    height: 200px;
+    background-color:#339933;
+    padding: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  .col-size6 {
+    width: 550px;
+    height: 200px;
+    background-color:#ffff66;
+    padding: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  .col-size7 {
+    width: 550px;
+    height: 200px;
+    background-color:#ff9933;
+    padding: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  .col-size8 {
+    width: 550px;
+    height: 200px;
+    background-color:#ff0000;
+    padding: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  .carousel-item {
+    width: 550px;
+    height: 200px;
+    background-color: darkblue;
+    padding: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+  }
+  .box{
+    position: relative;
+    bottom: 20%;
+    left: 35%;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color:darkred;
+    border: 2px black;
+    padding: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .round{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: white;
+  }

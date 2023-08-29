@@ -1,0 +1,26 @@
+.bloc{
+    width: 100px;
+    height: 100px; 
+    margin: 10px 0;
+}
+
+#bloc1{
+    position: relative;
+    background-color: red;
+    top: 30px;
+    left: 50px;
+    /* supperposition de l'élément */
+    z-index: 999;
+}
+#bloc2{
+    position: absolute;
+    background-color:blue;
+    top: 470px;
+    left: 20px;
+}
+#bloc3{
+    position: absolute;
+    background-color:yellow;
+    top: 20px;
+    left: 20px;
+}

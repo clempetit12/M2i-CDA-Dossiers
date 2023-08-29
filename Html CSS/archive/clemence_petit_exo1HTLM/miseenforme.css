@@ -1,0 +1,91 @@
+html {
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+nav {
+    background-color: lightcoral;
+    width: 1800px;
+    border: 2px dashed black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.liste {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #224061;
+}
+
+.foot {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: coral;
+    font-weight: bold;
+}
+
+img:hover {
+    opacity: 0.5;
+    
+}
+
+td {
+    font-weight: bold;
+    background-color: lightblue;
+    width: 200px;
+    text-align: center;
+}
+
+table {
+    margin: 4em 14em;
+    border: 2px dashed black;
+}
+
+.box {
+  
+    background-color: lightcoral;
+    width: 1800px;
+    border: 2px dashed black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    margin: 4em 10em;
+}
+ div, p, pre, h2, h3, figcaption, li {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+
+}
+li {
+    list-style: none;
+}
+.favorite{
+    display: flexbox;
+    justify-content: flex-end;
+    margin-right: 100px;
+}

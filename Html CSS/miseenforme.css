@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template: 
+    "header header" 20%
+    "footer footer"  40%
+    "aside aside" 30%
+    "main main" 10%
+
+}
+
+header{
+    background: red;
+
+}
+
+footer{
+background: yellow;
+}
+
+main {
+    background-color: purple;
+}

@@ -1,0 +1,61 @@
+@keyframes rotation_full {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation_full {
+    0% {
+        transform: rotate(0deg);
+        background-color: blue;
+    }
+
+    50% {
+        transform: rotate(360deg);
+        background-color: blueviolet;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        background-color: red;
+    }
+}
+
+    @keyframes rotation_full_b {
+        0% {
+            transform: rotate(0deg);
+            background-color: blue;
+        }
+
+        50% {
+            transform: rotate(360deg);
+            background-color: blueviolet;
+        }
+
+        100% {
+            transform: rotate(360deg);
+            background-color: red;
+        }
+    }
+
+    .red-square {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        animation-name: rotation_full;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+    }
+
+    .red-squareb {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        animation: rotation_full_b 3s linear infinite;
+
+    }

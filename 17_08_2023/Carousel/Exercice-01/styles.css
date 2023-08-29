@@ -1,0 +1,95 @@
+
+  .box{
+    top: 50%;
+    left: 40%;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color:darkred;
+    border: 2px black;
+    padding: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .round{
+    position: relative;
+    top: 40%;
+    left: 40%;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: white;
+  }
+  .round1{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: white;
+  }
+  .round2{
+    position: relative;
+    bottom: 10%;
+    right: 10%;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: white;
+  }
+  .round3{
+    position: relative;
+    top: 10%;
+    right: 10%;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: white;
+  }
+  .round4{
+    position: relative;
+    bottom: 10%;
+    left: 10%;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: white;
+  }
+  .round5{
+    position: relative;
+    bottom: 40%;
+    left: 10%;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: white;
+  }
+  .round6{
+    position: relative;
+    bottom: 40%;
+    right: 10%;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: white;
+  }
+  .card1{
+    display: grid;
+    grid-template-columns: min-content;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 2fr 1r 2fr;
+
+
+  }
+ 

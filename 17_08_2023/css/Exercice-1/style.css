@@ -1,0 +1,127 @@
+:root{
+    --text-body: 1rem;
+}
+
+
+@media screen and (max-width:320px) {
+    .cadre{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10%;
+    }
+    .fill img {
+        flex-shrink: 0;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        padding: 5px;
+    }
+    .fill{
+
+        background-color: black;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+     }
+     .cadre3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: black;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        margin-left: 10%;
+
+     }
+     
+       .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;    
+        padding: 2%;
+    }
+}
+@media screen and (min-width:320px) {
+    .cadre{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10%;
+    }
+    .fill img {
+        flex-shrink: 0;
+        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%; 
+    }
+    .fill{
+        background-color: black;
+        border-top-left-radius: 10%;
+        border-bottom-left-radius: 10%;
+     }
+     .cadre3{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%;
+
+     }
+     
+       .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;    
+        padding: 2%;
+    }
+    :root{
+        --text-body:1.5rem;
+       }
+       .fill img {
+        flex-shrink: 0;
+        border-radius: 10%;
+        padding: 10px;
+    }
+}
+.cadre3{
+    padding: 5%;
+}
+
+h4, p{
+    color: white;
+    font-size: var(--text-body);
+    font-family: 'Roboto', sans-serif;
+}
+.bouton{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.space{
+    width: 4px;
+  height: auto;
+  display: inline-block;
+}
+.space2{
+    width: 20px;
+  height: 10px;
+  display: inline-block;
+}
+.bouton2{
+    background-color: #4CFF33;
+
+    font-weight: bold;
+    border-radius: 10%;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+.bouton1{
+background-color: black;
+color: grey;
+border-color: grey;
+height: 40px;
+width: 150px;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}

@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+header, footer {
+    background-color: grey;
+    display: block;
+    border:none;
+    padding: 0;
+    margin-left: 0;
+    height: 70px;
+    
+}
+body{
+    background-color: lightgray;
+
+}
+span {
+    font-style: italic;
+}
+h1,main,.menu,.texte, .fin {
+    margin-left: 2%;
+}
+.menu{
+    margin-top: 1%;
+}

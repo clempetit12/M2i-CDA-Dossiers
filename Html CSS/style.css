@@ -1,0 +1,26 @@
+/* root pour déclarer vari globale à tout le contexte */
+:root{
+    --lightbackground-color: #1e90ff;
+    --light-text-color: #ffffff;
+}
+
+body{
+    background-color: red;
+    height: 100vh;
+}
+/* pour appliquer des fonctions en fonction de la taille de l'écran */
+@media screen and (max-width: 400px){
+    body{
+        background-color: yellow;
+    }
+}
+@media screen and (prefers-colors-scheme:dark){
+    body{
+        background-color: var(--lightbackground-color);
+    color: var(--light-text-color);
+    }
+}
+article{
+    background-color: var(--lightbackground-color);
+    color: var(--light-text-color);
+}

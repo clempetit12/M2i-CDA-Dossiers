@@ -1,0 +1,19 @@
+/* selecteur universel */
+* {
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    height: 100vh;
+}
+
+#important {
+    color: red;
+}
+.rouge{
+
+}
+li span {
+    color: green;
+    font-weight: bold;
+}
